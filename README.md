@@ -1,4 +1,3 @@
-# example-case-study--multitask-learning
 ## IPL extraTrees multitask learning example case study
 this file (example data.csv) is for the example case study for extraTrees multitask learning the file was derived from PaDEL descriptors software (1D and 2D), 
 and we have filtered out potential redundant and collinearity interaction features with low variance (variance<0.16) and high correlation (r>0.9)
@@ -7,7 +6,7 @@ and we have filtered out potential redundant and collinearity interaction featur
 
 This repository contains code and data supporting the research article:
 
-Multitask learning for predicting pulmonary absorption of chemicals
+## Multitask learning for predicting pulmonary absorption of chemicals
 
 Authors: Yu-Wen Chiu, Chun-Wei Tung, Chia-Chi Wang  
 Published in: Food and Chemical Toxicology, 2024 (Volume 185, Article 114453)
