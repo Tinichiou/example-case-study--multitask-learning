@@ -1,32 +1,47 @@
-## IPL extraTrees multitask learning example case study
-this file (example data.csv) is for the example case study for extraTrees multitask learning the file was derived from PaDEL descriptors software (1D and 2D), 
-and we have filtered out potential redundant and collinearity interaction features with low variance (variance<0.16) and high correlation (r>0.9)
+# IPL ExtraTrees Multitask Learning - Example Case Study  
 
-# IPL-Pulmonary-Absorption-Predict
-
-This repository contains code and data supporting the research article:
-
-## Multitask learning for predicting pulmonary absorption of chemicals
-
-Authors: Yu-Wen Chiu, Chun-Wei Tung, Chia-Chi Wang  
-Published in: Food and Chemical Toxicology, 2024 (Volume 185, Article 114453)
-[DOI: 10.1016/j.fct.2024.114453]
----
-
-## Overview
-
-Pulmonary absorption is critical for inhalation drug delivery and toxicological assessments. This study proposed a multitask machine learning model based on the ExtraTrees algorithm to predict pulmonary absorption. By leveraging shared knowledge from three tasks (kaIPL, PappCaco2, PappCalu3), the model demonstrated robust performance with a correlation coefficient of 0.84 for kaIPL prediction in the test set.
-
-### Features of this Repository
-1. Data Preparation: Scripts for preprocessing the IPL, Caco-2, and Calu-3 datasets.
-2. Feature Selection: R code for identifying the top molecular descriptors.
-3. Model Construction: Implementation of multitask ExtraTrees models for prediction.
-4. Visualization: Scatter plots of observed vs. predicted values for model evaluation.
+This repository provides code and data for an example case study of multitask learning using the ExtraTrees algorithm. The included dataset (`example_data.csv`) was derived from **PaDEL Descriptors Software (1D and 2D)**. Features with low variance (<0.16) and high correlation (r > 0.9) were filtered to reduce redundancy and collinearity.  
 
 ---
 
-## Citation
-If you use this repository in your research, please cite:
+## IPL-Pulmonary-Absorption-Predict  
 
-Chiu, Y.-W., Tung, C.-W., & Wang, C.-C. (2024). Multitask learning for predicting pulmonary absorption of chemicals. Food and Chemical Toxicology, 185, 114453.  
-[DOI: 10.1016/j.fct.2024.114453]
+This repository supports the research article:  
+
+**Multitask Learning for Predicting Pulmonary Absorption of Chemicals**  
+**Authors**: Yu-Wen Chiu, Chun-Wei Tung, Chia-Chi Wang  
+**Published in**: *Food and Chemical Toxicology*, 2024 (Volume 185, Article 114453)  
+[DOI: 10.1016/j.fct.2024.114453](https://doi.org/10.1016/j.fct.2024.114453)  
+
+---
+
+## Overview  
+
+Pulmonary absorption plays a critical role in inhalation drug delivery and toxicological assessments. This study introduces a multitask machine learning model, based on the **ExtraTrees algorithm**, to predict pulmonary absorption. By sharing knowledge across three tasks—**kaIPL**, **PappCaco2**, and **PappCalu3**—the model achieves **robust performance** with a correlation coefficient of **0.84** for kaIPL predictions in the test set.  
+
+---
+
+## Features of This Repository  
+
+1. **Data Preparation**:  
+   - Scripts for preprocessing the IPL, Caco-2, and Calu-3 datasets.  
+
+2. **Feature Selection**:  
+   - R code for identifying top molecular descriptors.  
+
+3. **Model Construction**:  
+   - Implementation of multitask ExtraTrees models for predictions.  
+
+4. **Visualization**:  
+   - Scatter plots of observed vs. predicted values for model evaluation.  
+
+---
+
+## Citation  
+
+If you use this repository in your research, please cite:  
+
+**Chiu, Y.-W., Tung, C.-W., & Wang, C.-C. (2024).**  
+*Multitask learning for predicting pulmonary absorption of chemicals.*  
+*Food and Chemical Toxicology, 185,* Article 114453.  
+[DOI: 10.1016/j.fct.2024.114453](https://doi.org/10.1016/j.fct.2024.114453)  
