@@ -17,7 +17,7 @@ This repository supports the research article:
 
 ## Overview  
 
-Pulmonary absorption plays a critical role in inhalation drug delivery and toxicological assessments. This study introduces a multitask machine learning model, based on the **ExtraTrees algorithm**, to predict pulmonary absorption. By sharing knowledge across three tasks—**kaIPL**, **PappCaco2**, and **PappCalu3**—the model achieves **robust performance** with a correlation coefficient of **0.84** for kaIPL predictions in the test set.  
+Pulmonary absorption plays a critical role in inhalation drug delivery and toxicological assessments. This study introduces a multitask machine learning model, based on the **ExtraTrees algorithm**, to predict pulmonary absorption. By sharing knowledge across three tasks—**kaIPL**, **PappCaco2**, and **PappCalu3**—the model achieves robust performance with a correlation coefficient of 0.84 for kaIPL predictions in the test set.  
 
 ---
 
@@ -42,6 +42,6 @@ Pulmonary absorption plays a critical role in inhalation drug delivery and toxic
 If you use this repository in your research, please cite:  
 
 **Chiu, Y.-W., Tung, C.-W., & Wang, C.-C. (2024).**  
-*Multitask learning for predicting pulmonary absorption of chemicals.*  
+**Multitask learning for predicting pulmonary absorption of chemicals.**  
 *Food and Chemical Toxicology, 185,* Article 114453.  
 [DOI: 10.1016/j.fct.2024.114453](https://doi.org/10.1016/j.fct.2024.114453)  
